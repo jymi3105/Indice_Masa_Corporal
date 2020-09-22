@@ -1,5 +1,5 @@
 body{
-  background-color: olive;
+  background-color: aqua;
 }
 fieldset {
      border: 1px solid #781351;
@@ -8,8 +8,8 @@ fieldset {
      width: 310px;
    }
    fieldset label { 
-     display     : block;
-     float       : left;
+     display     : inline-block;
+     float       : right;
      font-weight : bold;
      margin-right: 0.5em;
      text-align  : left;
@@ -18,7 +18,7 @@ fieldset {
    fieldset legend {
       background: #ffa20c;
       border: 1px solid #781351;
-      color: #fff;  
+      color:blue;  
       padding: 2px 2px 2px 2px;
    } 
    img {
